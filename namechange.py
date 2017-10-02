@@ -3,7 +3,7 @@ import re
 
 
 def renamefile():
-    directory = "/home/zhanpeng/Downloads/udacity/prank/prank"
+    directory = "/home/Downloads/udacity/prank/prank"
     os.chdir(directory)
     print("current working directory been changed to", directory)
     name_list = os.listdir(directory)
